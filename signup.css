@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background-image: url("/signup.jpeg");
+  background-image: url(/signup.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -20,11 +20,11 @@ body {
   padding: 10px 0px 10px 0px;
   text-align: center;
   border-radius: 15px 15px 0px 0px;
- font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .main-container {
   width: 800px;
- 
+
   background-color: rgba(253, 231, 231, 0.83);
   margin: auto;
   border-radius: 0px 0px 15px 15px;
@@ -44,7 +44,8 @@ form {
 
   font-size: 20px;
   font-weight: 700;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto Slab", serif;
 }
 .input-name {
   position: relative;
@@ -214,26 +215,25 @@ form {
 }
 
 .myButton {
-	background-color:#ffffff;
-	border-radius:10px;
-	border:1px solid #ffffff;
-	display:inline-block;
-	cursor:pointer;
-	color:#000000;
-	font-family:Verdana;
-	font-size:17px;
-	font-weight:bold;
-	padding:14px 76px;
-	text-decoration:none;
-
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-family: Verdana;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 14px 76px;
+  text-decoration: none;
 }
 .myButton:hover {
-	background-color:#e0e7da;
-  text-shadow:0px 2px 7px grey;
+  background-color: #e0e7da;
+  text-shadow: 0px 2px 7px grey;
 }
 .myButton:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
 
 .myButton {
